@@ -1,0 +1,32 @@
+
+.aboutme{
+  display:flex;
+    width: 1920px;
+    height: 1080px;
+
+}
+.aa{
+  width: 390px;
+  height:1080px;
+  background-color: bisque;
+}
+.bb{
+  display:flex;
+  width:1140px;
+  height:1080px;
+  background-color: cadetblue;
+}
+.cc{
+  width: 390px;
+  height:1080px;
+  background-color: bisque;
+}
+.bba{
+  width: 500px;
+  height: 1080px;
+}
+.bbc{
+  width:640px;
+  height:1080px ;
+}
+ 
