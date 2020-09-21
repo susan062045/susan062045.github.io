@@ -5,6 +5,11 @@
     flex-direction: column;
 
        }
+       ul { /* 取消ul預設的內縮及樣式 */
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }    
   #nav-left{
     width:150px;
     height:100%;
@@ -14,6 +19,7 @@
 
 .item{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: beige;
    color:teal;
     width: 100px;
     height: 50px;
@@ -28,6 +34,25 @@
   cursor: cell;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
+
+ul.item a:hover { /* 滑鼠滑入按鈕變色*/
+  background-color: #ef5c28;
+  color: #fff;
+}
+ul.item li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+  background-color: #ef5c28;
+  color: #fff;
+}
+
+ul.item ul { /*隱藏次選單*/
+  display: none;
+}
+
+ul.item li:hover > ul { /* 滑鼠滑入展開次選單*/
+  display: block;
+}
+
 .itema{
   width:150px;
   height:150px;
