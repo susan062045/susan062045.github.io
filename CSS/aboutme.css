@@ -10,6 +10,7 @@
   width: 390px;
   height:1080px;
   background-color: bisque;
+  background-image: url("../img/lovely-veg.jpg");
 }
 .bb{
   display:flex;
@@ -21,7 +22,20 @@
 .cc{
   width: 390px;
   height:1080px;
-  background-color: bisque;
+ 
+  
+}
+.cca{
+  width: 390px;
+  height: 540px;
+}
+.ccb{
+  width: 390px;
+  height: 540px;
+  background-image: url("../img/gif01.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 50%;
 }
 .bba{
   width: 500px;
@@ -31,4 +45,4 @@
   width:640px;
   height:1080px ;
 }
- 
+.myMOUSE{ cursor: pointer; }
